@@ -1,0 +1,51 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+	background-color: #9999FF;
+}
+
+h1, legend {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+	font-size: 32pt;
+	text-align: center;
+	font-weight: bold;
+}
+
+#mytextarea {
+	width: 90%;
+	height: 400px;
+	font-weight: bold;
+}
+
+fieldset {
+	border-style: solid;
+	border-color: black;
+	border-radius: 10px;
+	border-width: 5px;
+}
+
+#text {
+	text-align: center;
+}
+
+legend {
+	font-size: 14pt;
+	text-align: left;
+}
+
+#controls {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+figure {
+	display: flex;
+	flex-direction: column;
+	float: right;
+}

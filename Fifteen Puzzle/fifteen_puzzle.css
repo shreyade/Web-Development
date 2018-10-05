@@ -1,0 +1,39 @@
+/*
+In this game, users move squares that are
+right/left/up/bottom an empty square 
+and solve the fifteen puzzle
+game. They can shuffle the 
+squares to get a new game. */
+
+@import url('https://fonts.googleapis.com/css?family=Bubblegum+Sans');
+
+body,button { 
+	font-family: 'Bubblegum Sans', cursive;
+	font-size: 14pt;
+}
+
+#puzzle-area {
+	height: 400px;
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+}
+
+.pieces {
+	height: 90px;
+	width: 90px;
+	border: 5px solid black;
+	position: absolute;
+	font-size: 40pt;
+}
+
+.highlight {
+	color: white;
+	border-color: red;
+	cursor: pointer;
+}
+
+body, .pieces ,button {
+	text-align: center;
+}
